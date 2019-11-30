@@ -19,13 +19,9 @@ In order to run this project, you first need to go through the following steps:
 3. `Put images into the file to create a model`
 4. `Run Server.js`
 
-##Supported Python Versions
+## Supported Node.js Versions
 
-Python >= 2.7
-
-#Deprecated Python Versions
-
-Python == 2.7. Python 2.7 support will be removed on January 1, 2020.
+Node.js >= v10.16.0
 
 ## Installation
 
