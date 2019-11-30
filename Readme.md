@@ -7,8 +7,7 @@ Standard Node.js and webapp
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # Overview of project
 
-Our project, takes images using the camera every predefined seconds, feeds it into a cloud bucket and performs image recognition on it. It has been preconfigured to identify faces and highlight them. Currently it is performing the function of security camera, thus when it recognises a person, it will email the owner and issue a verbal warning to the visitor.It has been attached to servos to allow movement of the camera however this application is infinitely dynamic, allowing it to be used for a variety of other purposes such as as being able to be configured for Optical character recognition and other artificial intelligence purposes.
-
+Durandal uses tensorflow and opencv for facial image recognition, it requests access to camera and is accessable from a ip address. From here it will load a image model that has been generated from the facial image model file. The opencv javascript will be loaded client side to reduce the heavy load that will happen server side.
 
 Quick Start
 -----------
